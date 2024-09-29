@@ -1148,7 +1148,7 @@ textarea.form-control {
 }
 
 .banner-area.bg-2 {
-    background-image: url(../../assets/images/banner/banner-bg-2.jpg);
+    background-image: url(../../assets/images/hero1.webp);
     padding-top: 150px;
     padding-bottom: 150px
 }
@@ -1161,7 +1161,7 @@ textarea.form-control {
     width: 100%;
     height: 100%;
     background: linear-gradient(90deg, #000000 48.99%, rgba(0, 0, 0, 0) 100%);
-    opacity: .65;
+    opacity: .50; /*.65;*/
     z-index: -1
 }
 
@@ -3230,6 +3230,15 @@ textarea.form-control {
     background-size: cover
 }
 
+.page-title-area.home1 {
+    background-image: url(../../assets/images/home1details/home1.webp)
+}
+
+.page-title-area.home1::before {
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 99.68%);
+    opacity: .5
+}
+
 .page-title-area.bg-7 {
     background-image: url(../../assets/images/page-bg/page-bg-2.jpg)
 }
@@ -4834,7 +4843,7 @@ textarea.form-control {
 }
 
 .single-listing-warp .properties-bg-img {
-    background-image: url(../../assets/images/featured/featured-5.jpg);
+    background-image: url(../../assets/images/home1details/home1interior1.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
